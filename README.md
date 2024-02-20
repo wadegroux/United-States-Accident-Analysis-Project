@@ -117,11 +117,11 @@ I will now write a query that counts the number of accidents for each state and 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/b04eff1c-c57c-418c-8ed2-0e5bbb4a0099)
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/d135df95-1ccb-49aa-9657-00a89229c293)
 
-NOTE: From looking at these results I am going to have to keep in mind that States with a higher population may skew analysis. Just because there are higher probity of an accident happening when the population is greater than other states.
+NOTE: From examining these results, I need to consider that states with higher populations may skew the analysis. A higher population could lead to a higher probability of accidents occurring compared to states with lower populations.
 
 **Calculating AVG Temperature For Each State**
 
-I will write a query that will calculate the average temperature for each state
+I will write a query to calculate the average temperature for each state.
 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/324c1ec7-a8e2-4beb-9c2f-638019fd50bb)
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/c9c7363f-634b-4852-839a-76234f27bfc7)
