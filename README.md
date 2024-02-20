@@ -69,9 +69,9 @@ To find outliers in the 'Temperature_F' column, I'll use the Interquartile Range
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/5edc255a-637c-438c-8af5-38335032e2c1)
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/deaf0ef0-b790-420c-886c-f4f426116f96)
 
-This allowed me to find 3,332 Rows of outliers. The majority of these were due to extremely cold weather conditions which would help me derive an insight that Icey conditions lead to wrecks I will not delete these but, I am making note of it to come back later. While looking at the data with the States and Cities these temperatures reported seemed accurate. The data aligns with the locations.
+I identified 3,332 rows of outliers using the IQR method. The outliers, mostly associated with extremely cold weather conditions, suggest a correlation between icy conditions and accidents. I've decided not to delete these outliers but will make a note for further analysis. Upon reviewing the data, the reported temperatures align with the corresponding states and cities, indicating accuracy.
 
-Next, I am going to find the outliers that are within those outliers that are above 32 degrees to see if the outlier is actually something that can be turned into an insight.
+Next, I will further examine the outliers within the identified 3,332 rows that are above 32 degrees. This step aims to determine if these specific outliers can provide valuable insights.
 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/285e050c-83c5-4656-be60-363eb7374942)
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/37b6be7a-6234-44e9-8462-186149085cf5)
