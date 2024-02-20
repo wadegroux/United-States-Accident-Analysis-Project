@@ -62,9 +62,9 @@ I am going to check for outliers in columns Sunrise_Sunset, Severity, and Temper
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/5addcd20-43a6-406c-8a14-d6e59e285307)
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/03537099-12ec-4b93-ad16-e99f8c9e1bb2)
 
-There were no outliers in these two columns
+There were no outliers in these two columns.
 
-Now for Temperature_F column to identify the outliers first I am going to need to find the threshold within the column and to do that I am going to use the Interquartile Range (IQR) method.
+To find outliers in the 'Temperature_F' column, I'll use the Interquartile Range (IQR) method by calculating the lower and upper thresholds based on the quartiles of the data. Values beyond these thresholds are considered outliers.
 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/5edc255a-637c-438c-8af5-38335032e2c1)
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/deaf0ef0-b790-420c-886c-f4f426116f96)
