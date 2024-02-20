@@ -87,6 +87,34 @@ I will now insure that the data tyoes for my data table are correct. NOTE: I alr
 
 This allowed me to confirm that my data types are correct.
 
+# Data Cleaning: Validating Constraints
+**Checking Unique Constraints**
+Now I will write a query that checks for duplicate records by comparing the total count of records with the count of unique values in 'ID'
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/204b695a-7749-44b2-8bb1-cf93c39ec8e1)
+
+This allowed me to see that the counts are equal which means there are 0 duplicate entries
+
+**Checking Primary Key Constraints**
+
+I now will write a new query that will check for NULL values in the primary key column('ID'). I should get 0 NULL values as a result 
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/e4404ea5-f10b-4535-b302-5da174564bab)
+
+0 NULL VALUES FOUND
+
+**Checking Consistency in 'STATE' and 'CITY' Columns** 
+I will write a query that checks for NULL values in the state and city columns. 
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/5d9ee9ef-722a-4199-af2a-068ab10f59c6)
+
+The columns contained 0 NULL values 
+
+
+
+
+
+
 
 
 
