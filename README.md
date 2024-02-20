@@ -33,35 +33,29 @@ The dataset is sourced from Kaggle, titled "US-Accidents," and provided by Sobha
 - Moosavi, Sobhan, et al. "A Countrywide Traffic Accident Dataset," 2019.
 - Moosavi, Sobhan, et al. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights."
 
----
-# Data Assessment and Cleaning
+# Data Cleaning: Checking for Missing Values
 
-## 1. Check for Missing Values
-
-To ensure data quality, a comprehensive check for missing values in the dataset was conducted. The dynamic SQL script below generates a query that returns the total number of missing values for each column in the specified table ('us_Accidents_data'):
-
+## Overview
 This section outlines the process of checking for missing values in the dataset ('us_accidents_data') using dynamic SQL. Identifying missing values is a crucial step in ensuring the integrity and completeness of the dataset.
 
-## SQL Query
-
-The following SQL query dynamically assesses missing values for each column in the dataset:
-
-```sql
--- Checking for missing values in all of my columns 
-DECLARE @tableName NVARCHAR(255) = 'us_accidents_data';
-DECLARE @sqlQuery NVARCHAR(MAX) = 'SELECT COUNT(*) AS TotalRows';
-
--- Creating dynamic SQL to check for missing values in each column
-SELECT @sqlQuery = @sqlQuery + ', SUM(CASE WHEN ' + COLUMN_NAME + ' IS NULL THEN 1 ELSE 0 END) AS Missing_' + COLUMN_NAME
-FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_NAME = @tableName;
-
--- Add the FROM clause
-SET @sqlQuery = @sqlQuery + ' FROM ' + @tableName;
-
--- Execute the dynamic SQL
-EXEC sp_executesql @sqlQuery;
-
+I created a query that would return the total number of missing values for each column the dynamic script generates all columns in the specified table ('us_Accidents_data'). It uses 'INFORMATION_SCHEMA.COLUMNS' view to fetch the column names and constructs the query accordingly. Using this is a lot faster than typing in multiple different blocks. I found that there were missing values from the columns Temperature_F, Weather_Condition, and Sunrise_Sunset.
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/65e8900d-db2d-4615-a602-65459243bef1)
 ![Missing Value Counts](https://github.com/wadegroux/United-States-Accident-Analysis-Project/blob/main/Screenshot%202024-02-18%20234158.png)
 ![Missing Value Counts](https://github.com/wadegroux/United-States-Accident-Analysis-Project/blob/main/Screenshot%202024-02-18%20234330.png)
+
+I ended up deleting all of the rows that had missing values.
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/8b5de333-b944-4e8c-a0b6-8fbd1abb3e99)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/f38bcc70-cfdc-477f-935e-2c37046ce161)
+
+After the rows had been deleted I went and double checked to insure that all of the missing values were equal to 0
+
+
+
+
+
+
+
+
+
+
 
