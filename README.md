@@ -138,6 +138,50 @@ I will now write a query that summarizes severity levels by state. To do this I 
 
 NOTE: What I can do with this data: Identify high severity areas, comparison of severity levels, trend analysis, correlation with weather conditions, geospatial visualization, safety recommendations, and impact of traffic management
 
+# Data Cleaning: Review and Understand Data Distributions 
+**Frequency Distribution of Severity Levels**
+
+I will now create a query that shows how many accidents fall into each severity category(1-4).
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/9a88ac42-d486-4133-bc0c-3f2e6b3b808d)
+
+The result shows me the distribution levels
+
+**Histogram of Temperature Distribution** 
+I will write a query that creates a histogram that will group temperature values into ranges and shows the frequency of accidents in each range.
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/24a1e80a-bef6-4081-8532-e74be9297f38)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/25bfe6d3-3b35-40a8-aef8-46e1600f42ed)
+
+Result was Distribution of Severity Levels 
+
+**Distribution of Day, Night, and Severity**
+I will now write a query that will categorize accidents based on the Sunrise_Sunset column , and for each category it provides the total accident count as well as the Severity level 1-4. This way I can see how the severity is distributed during the day and night. Along with which have higher severity level accidents.
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/fef1c5d7-dcf7-4bcb-87d4-0637cb5ef157)
+
+Once I saw these results I wanted to find the results for severity count as percentages of each option day and night
+To do this I am going to have to write a query that uses a Common Table Expression (CTE)
+
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/bba19015-b7fb-4c13-b3a7-b5c1b08f1748)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/9b4aa8eb-dce7-4571-8c0a-fcba9579edaa)
+
+After Seeing this I came to realize that the Severity Level 4 Percentage is higher at night than the day time even though the night only counts for 30.70% of accidents. This makes me think I might be able to prove my hypothesis that driving at night produces higher severity of wrecks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
