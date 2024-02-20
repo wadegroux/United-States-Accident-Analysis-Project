@@ -75,8 +75,7 @@ Next, I will further examine the outliers within the identified 3,332 rows that 
 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/285e050c-83c5-4656-be60-363eb7374942)
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/37b6be7a-6234-44e9-8462-186149085cf5)
-After doing this I was able to discover that there were only 5 out of the 3332 outliers that I found. Which is cool. By finding the outliers I was able to find the outliers within those that applied to my analysis.
-I will now remove those 5 I found. And verify that it is completed.
+After this analysis, I found that out of the 3,332 outliers, only 5 had temperatures above 32 degrees. Removing these 5 outliers helps refine the dataset for a more accurate analysis. I will proceed to remove them and confirm the completion of this step.
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/95cdb05e-1a4b-4023-bb7d-c1aa6d23466d)
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/d0978627-a298-4107-b7d5-39eff59a5553)
 
