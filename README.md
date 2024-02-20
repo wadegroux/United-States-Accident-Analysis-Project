@@ -54,7 +54,7 @@ To check for duplicate entries, I focus solely on the 'ID' column. The uniquenes
 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/d89e247f-0dc8-4773-b734-9e81a3e1cd9b)
 
-After executing this there were 0 rows within the ID column that were duplicates, meaning that my data is free from duplicate entries.
+Upon execution, it was determined that there were no duplicate rows within the 'ID' column. This indicates that the dataset is devoid of any duplicate entries.
 
 # Data Cleaning: Checking/Removing Outliers
 I am going to check for outliers in columns Sunrise_Sunset, Severity, and Temperature_F. 
