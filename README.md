@@ -88,11 +88,11 @@ This allowed me to confirm, that my data types are correct.
 
 # Data Cleaning: Validating Constraints
 **Checking Unique Constraints**
-Now I will write a query that checks for duplicate records by comparing the total count of records with the count of unique values in 'ID'
+Now, I will write a query that checks for duplicate records by comparing the total count of records with the count of unique values in the 'ID' column.
 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/204b695a-7749-44b2-8bb1-cf93c39ec8e1)
 
-This allowed me to see that the counts are equal which means there are 0 duplicate entries
+This allowed me to see that the counts are equal, indicating that there are no duplicate entries.
 
 **Checking Primary Key Constraints**
 
