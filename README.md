@@ -49,6 +49,14 @@ I ended up deleting all of the rows that had missing values.
 
 After the rows had been deleted I went and double checked to insure that all of the missing values were equal to 0
 
+# Data Cleaning: Checking/Removing Duplicates
+To check for duplicate entries the only column I need to pay attention to is 'ID' this is due to the fact that the ID number is unique to each entry so if there are any duplicates it will be shown here. To do this I need to write a query that groups the rows by the 'ID' column and counts the occurrences of each 'ID'. The 'HAVING COUNT(*) > 1' condition filters out unique records, showing only those with one occurrence.
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/d89e247f-0dc8-4773-b734-9e81a3e1cd9b)
+
+After executing this there were 0 rows within the ID column that were duplicates, meaning that my data is free from duplicate entries.
+
+
 
 
 
