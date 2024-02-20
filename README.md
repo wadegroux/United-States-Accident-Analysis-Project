@@ -159,14 +159,13 @@ I will write a query that categorizes accidents based on the Sunrise_Sunset colu
 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/fef1c5d7-dcf7-4bcb-87d4-0637cb5ef157)
 
-Once I saw these results I wanted to find the results for severity count as percentages of each option day and night
-To do this I am going to have to write a query that uses a Common Table Expression (CTE)
+Once I saw these results, I wanted to calculate the severity count as percentages for each option, day and night. To achieve this, I will write a query that utilizes a Common Table Expression (CTE).
 
 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/bba19015-b7fb-4c13-b3a7-b5c1b08f1748)
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/9b4aa8eb-dce7-4571-8c0a-fcba9579edaa)
 
-After Seeing this I came to realize that the Severity Level 4 Percentage is higher at night than the day time even though the night only counts for 30.70% of accidents. This makes me think I might be able to prove my hypothesis that driving at night produces higher severity of wrecks.
+After Seeing the new result I came to realize that the Severity Level 4 Percentage is higher at night than the day time even though the night only counts for 30.70% of accidents. This makes me think I might be able to prove my hypothesis that driving at night produces higher severity of wrecks.
 
 
 
