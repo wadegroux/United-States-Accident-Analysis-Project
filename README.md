@@ -165,7 +165,7 @@ Once I saw these results, I wanted to calculate the severity count as percentage
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/bba19015-b7fb-4c13-b3a7-b5c1b08f1748)
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/9b4aa8eb-dce7-4571-8c0a-fcba9579edaa)
 
-After Seeing the new result I came to realize that the Severity Level 4 Percentage is higher at night than the day time even though the night only counts for 30.70% of accidents. This makes me think I might be able to prove my hypothesis that driving at night produces higher severity of wrecks.
+After seeing the new results, I realized that the Severity Level 4 percentage is higher at night than during the daytime, even though the night only accounts for 30.70% of accidents. This leads me to consider that I might be able to substantiate my hypothesis that driving at night contributes to higher severity of accidents.
 
 
 
