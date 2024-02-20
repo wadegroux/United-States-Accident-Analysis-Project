@@ -56,6 +56,46 @@ To check for duplicate entries the only column I need to pay attention to is 'ID
 
 After executing this there were 0 rows within the ID column that were duplicates, meaning that my data is free from duplicate entries.
 
+# Data Cleaning: Checking/Removing Outliers
+I am going to check for outliers in columns Sunrise_Sunset, Severity, and Temperature_F. 
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/5addcd20-43a6-406c-8a14-d6e59e285307)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/03537099-12ec-4b93-ad16-e99f8c9e1bb2)
+
+There were no outliers in these two columns
+
+Now for Temperature_F column to identify the outliers first I am going to need to find the threshold within the column and to do that I am going to use the Interquartile Range (IQR) method.
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/5edc255a-637c-438c-8af5-38335032e2c1)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/deaf0ef0-b790-420c-886c-f4f426116f96)
+
+This allowed me to find 3,332 Rows of outliers. The majority of these were due to extremely cold weather conditions which would help me derive an insight that Icey conditions lead to wrecks I will not delete these but, I am making note of it to come back later. While looking at the data with the States and Cities these temperatures reported seemed accurate. The data aligns with the locations.
+
+Next, I am going to find the outliers that are within those outliers that are above 32 degrees to see if the outlier is actually something that can be turned into an insight.
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/285e050c-83c5-4656-be60-363eb7374942)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/37b6be7a-6234-44e9-8462-186149085cf5)
+After doing this I was able to discover that there were only 5 out of the 3332 outliers that I found. Which is cool. By finding the outliers I was able to find the outliers within those that applied to my analysis.
+I will now remove those 5 I found. And verify that it is completed.
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/95cdb05e-1a4b-4023-bb7d-c1aa6d23466d)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/d0978627-a298-4107-b7d5-39eff59a5553)
+
+# Data Cleaning: Checking Data Types 
+I will now insure that the data tyoes for my data table are correct. NOTE: I already did this when importing my data set but, never hurts to double check.
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/2ccd0b30-6ca4-4b35-a262-9d6154a3db39)
+
+This allowed me to confirm that my data types are correct.
+
+
+
+
+
+
+
+
+
+
 
 
 
