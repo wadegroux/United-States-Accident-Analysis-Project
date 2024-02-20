@@ -110,6 +110,45 @@ I will write a query that checks for NULL values in the state and city columns.
 
 The columns contained 0 NULL values 
 
+# Data Cleaning: Aggregate Functions For Summarization
+**Counting Number Of Accidents Per State**
+I will now write a query that counts the number of accidents for each state and displays the results in descending order.
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/0a0fcb6f-f9f4-4d67-ad31-1e90ca5e9776)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/b04eff1c-c57c-418c-8ed2-0e5bbb4a0099)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/d135df95-1ccb-49aa-9657-00a89229c293)
+
+NOTE: From looking at these results I am going to have to keep in mind that States with a higher population may skew analysis. Just because there are higher probity of an accident happening when the population is greater than other states.
+
+**Calculating AVG Temperature For Each State**
+
+I will write a query that will calculate the average temperature for each state
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/324c1ec7-a8e2-4beb-9c2f-638019fd50bb)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/c9c7363f-634b-4852-839a-76234f27bfc7)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/004e09e5-b385-41fb-a74d-abc9ed39ecf1)
+
+**Summarizing Severity Levels By State**
+
+I will now write a query that summarizes severity levels by state. To do this I am going to need to know the count of severity levels (1-4) for each state. 
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/f8530da4-98d6-45af-916e-702148b97318)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/cc524409-6aad-400c-ae2d-b439799f017f)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/9f36b595-3bf7-4a60-b8df-08134d19098e)
+
+NOTE: What I can do with this data: Identify high severity areas, comparison of severity levels, trend analysis, correlation with weather conditions, geospatial visualization, safety recommendations, and impact of traffic management
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
