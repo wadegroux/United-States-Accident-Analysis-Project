@@ -61,3 +61,7 @@ SET @sqlQuery = @sqlQuery + ' FROM ' + @tableName;
 
 -- Execute the dynamic SQL
 EXEC sp_executesql @sqlQuery;
+
+![Missing Value Counts](https://github.com/wadegroux/United-States-Accident-Analysis-Project/blob/main/Screenshot%202024-02-18%20234158.png)
+![Missing Value Counts](https://github.com/wadegroux/United-States-Accident-Analysis-Project/blob/main/Screenshot%202024-02-18%20234330.png)
+
