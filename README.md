@@ -155,7 +155,7 @@ I will create a query that generates a histogram, grouping temperature values in
 Result: Distribution of Severity Levels 
 
 **Distribution of Day, Night, and Severity**
-I will now write a query that will categorize accidents based on the Sunrise_Sunset column , and for each category it provides the total accident count as well as the Severity level 1-4. This way I can see how the severity is distributed during the day and night. Along with which have higher severity level accidents.
+I will write a query that categorizes accidents based on the Sunrise_Sunset column. For each category, it will provide the total accident count as well as the severity levels 1-4. This way, I can analyze how severity is distributed during the day and night and identify periods with higher severity level accidents.
 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/fef1c5d7-dcf7-4bcb-87d4-0637cb5ef157)
 
