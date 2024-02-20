@@ -80,11 +80,11 @@ After this analysis, I found that out of the 3,332 outliers, only 5 had temperat
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/d0978627-a298-4107-b7d5-39eff59a5553)
 
 # Data Cleaning: Checking Data Types 
-I will now insure that the data tyoes for my data table are correct. NOTE: I already did this when importing my data set but, never hurts to double check.
+I will now ensure that the data types for my data table are correct. Note: I already did this when importing my dataset, but it never hurts to double-check.
 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/2ccd0b30-6ca4-4b35-a262-9d6154a3db39)
 
-This allowed me to confirm that my data types are correct.
+This allowed me to confirm, that my data types are correct.
 
 # Data Cleaning: Validating Constraints
 **Checking Unique Constraints**
