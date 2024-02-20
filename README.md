@@ -129,18 +129,18 @@ I will write a query to calculate the average temperature for each state.
 
 **Summarizing Severity Levels By State**
 
-I will now write a query that summarizes severity levels by state. To do this I am going to need to know the count of severity levels (1-4) for each state. 
+I will write a query to summarize severity levels (1-4) by state, providing the count of each severity level for every state. 
 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/f8530da4-98d6-45af-916e-702148b97318)
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/cc524409-6aad-400c-ae2d-b439799f017f)
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/9f36b595-3bf7-4a60-b8df-08134d19098e)
 
-NOTE: What I can do with this data: Identify high severity areas, comparison of severity levels, trend analysis, correlation with weather conditions, geospatial visualization, safety recommendations, and impact of traffic management
+**NOTE: The data opens up various possibilities for analysis, including the identification of high-severity areas, comparison of severity levels, trend analysis, correlation with weather conditions, geospatial visualization, safety recommendations, and evaluation of the impact of traffic management.**
 
 # Data Cleaning: Review and Understand Data Distributions 
 **Frequency Distribution of Severity Levels**
 
-I will now create a query that shows how many accidents fall into each severity category(1-4).
+I will now write a query that shows how many accidents fall into each severity category(1-4).
 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/9a88ac42-d486-4133-bc0c-3f2e6b3b808d)
 
