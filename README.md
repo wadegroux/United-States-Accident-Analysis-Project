@@ -54,7 +54,7 @@ To check for duplicate entries, I focus solely on the 'ID' column. The uniquenes
 
 Upon execution, it was determined that there were no duplicate rows within the 'ID' column. This indicates that the dataset is devoid of any duplicate entries.
 
-# Data Cleaning: Checking/Removing Outliers
+# Data Exploration: Checking/Removing Outliers
 I am going to check for outliers in columns Sunrise_Sunset, Severity, and Temperature_F. 
 
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/5addcd20-43a6-406c-8a14-d6e59e285307)
@@ -107,7 +107,7 @@ I will write a query that checks for NULL values in the state, and city columns.
 
 The columns contained 0 NULL values. 
 
-# Data Cleaning: Aggregate Functions For Summarization
+# Data Exploration: Aggregate Functions For Summarization
 **Counting Number Of Accidents Per State**
 I will now write a query that counts the number of accidents for each state and displays the results in descending order.
 
