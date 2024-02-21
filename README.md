@@ -14,16 +14,14 @@ The project delves into the US-Accidents dataset, spanning 49 states and collect
 Conduct an in-depth analysis of the US-Accidents dataset to unravel patterns contributing to a holistic understanding of car accidents.
 
 ## Questions To Be Answered During Analysis
-1. **Temporal Patterns:**
-   - Are there identifiable trends in seasonal variations in accident rates over the dataset period?
 
-2. **Hotspot Identification:**
+1. **Hotspot Identification:**
    - Can we pinpoint high-accident areas and understand contributing factors for targeted prevention?
 
-3. **Environmental Impact:**
+2. **Environmental Impact:**
    - How do weather conditions correlate with accident occurrence and severity?
 
-4. **Accident Severity Analysis:**
+3. **Accident Severity Analysis:**
    - What factors most significantly influence the severity of accidents?
 
 ## Data Sourcing
