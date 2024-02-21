@@ -31,7 +31,7 @@ The dataset is sourced from Kaggle, titled "US-Accidents," and provided by Sobha
 - Moosavi, Sobhan, et al. "A Countrywide Traffic Accident Dataset," 2019.
 - Moosavi, Sobhan, et al. "Accident Risk Prediction based on Heterogeneous Sparse Data: New Dataset and Insights."
 
-# Data Cleaning: Checking for Missing Values
+# Data Exploration: Checking for Missing Values
 
 ## Overview
 This section outlines the process of checking for missing values in the dataset ('us_accidents_data') using dynamic SQL. Identifying missing values is a crucial step in ensuring the integrity and completeness of the dataset.
@@ -84,7 +84,7 @@ I will now ensure that the data types for my data table are correct. Note: I alr
 
 This allowed me to confirm, that my data types are correct.
 
-# Data Cleaning: Validating Constraints
+# Exploration: Validating Constraints
 **Checking Unique Constraints**
 Now, I will write a query that checks for duplicate records by comparing the total count of records with the count of unique values in the 'ID' column.
 
@@ -135,7 +135,7 @@ I will write a query to summarize severity levels (1-4) by state, providing the 
 
 **NOTE: The data opens up various possibilities for analysis, including the identification of high-severity areas, comparison of severity levels, trend analysis, correlation with weather conditions, geospatial visualization, safety recommendations, and evaluation of the impact of traffic management.**
 
-# Data Cleaning: Review and Understand Data Distributions 
+# Data Exploration: Review and Understand Data Distributions 
 **Frequency Distribution of Severity Levels**
 
 I will now write a query that shows how many accidents fall into each severity category(1-4).
