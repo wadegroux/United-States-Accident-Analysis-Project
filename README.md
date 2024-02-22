@@ -206,6 +206,28 @@ To pinpoint high-accident areas and understand contributing factors by state, I 
 First I will write a query that allow me to Identify High-Accident Areas by State
 ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/6c4f91d3-fa76-4f78-ab58-0bd3c82717ad)
 
+**Explore Weather Conditions by State**
+I will now write a query that provides a breakdown of severity levels for each state 
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/fef9f2fc-e803-4772-9ecc-6f2d8d99e467)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/6655a350-262c-46ae-b123-84d81085cd02)
+
+
+I will now combine the previous 3 query's to get a holistic view of high-accident areas, severity levels, and contributing factors by state. I only want to see the top 10 for my analysis.
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/e97d0194-1db4-4537-beb8-81c4d489240d)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/e697ee29-bd5d-45f8-96cd-776ada0f5b00)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/9170b1d9-241e-4578-85b0-ef25a47dc0ed)
+
+I can use this newly created table for my data visualization. This will allow me to identify high accident areas and understand contributing factors for targeted prevention. By analyzing the accident data, I can see patterns, trends, and commonalities in terms of locations, types of accidents, and contributing factors. 
+
+After being able to visualize this information for targeted prevention we could use Consider using machine learning models to predict accident hotspots based on historical data. These models can identify key features contributing to accidents. Another option is Work with local authorities, traffic safety organizations, or law enforcement to gain additional insights and collaborate on targeted prevention initiatives.
+
+Exciting news! Having laid a solid foundation with the data, I'm now taking the next step using Tableau to craft a compelling narrative. 
+
+# Data Visualizations: Crafting Creative Data Visualizations
+
+
+
 
 
 
