@@ -188,6 +188,23 @@ The reduction from 107 different variables to 10 in the weather condition catego
 
 I will now write a query that calculates the total number of accidents, the count for each severity level, and the percentage of accidents for each severity level within each weather category. It then orders the results by the total number of accidents in descending order.
 
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/bdbc778e-dd55-4feb-9a13-4967a6199891)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/3e87207e-d4b2-4a24-a447-03a850bac388)
+
+I need a new query that returns the top 5 weather conditions with the highest severity percentage in Severity 2-4 levels, excluding clear and cloudy conditions. This analysis will help me understand the impact of weather conditions on accidents and severity levels.
+
+This shows that now has the highest Severity Level 4 Percentage
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/1370d65d-fe1a-470b-80b7-1d17cfb4aa18)
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/2a8f45b4-5cd1-4bf1-911b-03b29589fd22)
+
+This tells me the relationships of accidents by each weather condition and how there is a relationship with weather that has an influences higher severity level.
+
+**Identify High Accident Areas by State**
+To pinpoint high-accident areas and understand contributing factors by state, I need to perform analysis based on the states considering factors such as accident counts severity levels and weather conditions.
+
+First I will write a query that allow me to Identify High-Accident Areas by State
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/6c4f91d3-fa76-4f78-ab58-0bd3c82717ad)
 
 
 
