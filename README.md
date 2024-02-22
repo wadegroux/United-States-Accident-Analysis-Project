@@ -177,6 +177,20 @@ The only variable I need to understand more is the "Weather Condition." I can cr
 
 After reviewing this, I plan to summarize it to simplify my analysis process, reducing the number of unique variables in the columns. I will utilize the 'CASE' statement to generate a new column with summarized categories for the 'Weather Condition' column.
 
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/f7c66109-aa51-46fd-bf60-cfe7a27e97b2)
+
+SIDE NOTE: THIS TOOK FOREVER!
+Following the execution of this operation, the new column has been successfully created. To ensure the accuracy of all values, I will verify the uniqueness of values in the weather category column.
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/3f32f681-6154-443a-9c13-9004577a22c3)
+
+The reduction from 107 different variables to 10 in the weather condition category significantly simplifies the data, making it more conducive to analysis and extraction of insights.
+
+I will now write a query that calculates the total number of accidents, the count for each severity level, and the percentage of accidents for each severity level within each weather category. It then orders the results by the total number of accidents in descending order.
+
+
+
+
 
 
 
