@@ -167,6 +167,16 @@ After seeing the new results, I realized that the Severity Level 4 percentage is
 
 # Data Exploration: Continued (EDA)
 
+I will review any available data dictionary or metadata that describes the variables.
+
+The only variable I need to understand more is the "Weather Condition." I can create a query to retrieve all unique values from this column.
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/a0360859-f6bb-4a5f-96dc-234b527f4062)
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/1fc61755-868a-434c-a429-43d0af5873b9) ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/402f1728-247a-4115-ae28-0c73d7d6d673) ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/229ebced-a197-425e-a085-1bd78e4d1c36) ![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/dffd5425-7641-472f-bbb4-3fc6c22e7e49)
+
+After reviewing this, I plan to summarize it to simplify my analysis process, reducing the number of unique variables in the columns. I will utilize the 'CASE' statement to generate a new column with summarized categories for the 'Weather Condition' column.
+
 
 
 
