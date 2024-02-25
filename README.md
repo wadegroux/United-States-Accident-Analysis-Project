@@ -225,6 +225,25 @@ After being able to visualize this information for targeted prevention we could 
 Exciting news! Having laid a solid foundation with the data, I'm now taking the next step using Tableau to craft a compelling narrative. 
 
 # Data Visualizations: Crafting Creative Data Visualizations
+You can interact with the Tableau Dashboard Here: https://public.tableau.com/app/profile/wade.groux/viz/USAccidentsPortfolioProject/Dashboard1 
+
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/3c47265e-e9d5-467e-83e0-c89ae964db89)
+
+
+In my Tableau Analysis Visualization, I've developed an interactive dashboard for the United States Traffic Accidents Severity Analysis, featuring:
+
+• Geographical mapping of accidents and total accident count.
+
+• Segmentation of accidents by severity levels.
+
+• Analysis of accidents in relation to different weather conditions.
+
+• Distinction between accidents occurring during the day and night.
+
+• Customizable filters for states, time of day, severity levels, and weather categories.
+
+• A comprehensive exploration of the interplay between these factors, providing insights into the determinants of accident severity in the United States.
+
 
 
 
