@@ -227,8 +227,7 @@ Exciting news! Having laid a solid foundation with the data, I'm now taking the 
 # Data Visualizations: Crafting Creative Data Visualizations
 You can interact with the Tableau Dashboard Here: https://public.tableau.com/app/profile/wade.groux/viz/USAccidentsPortfolioProject/Dashboard1 
 
-![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/3c47265e-e9d5-467e-83e0-c89ae964db89)
-
+![image](https://github.com/wadegroux/United-States-Accident-Analysis-Project/assets/157087862/809d210e-f167-439e-b946-171df28b9c6f)
 
 In my Tableau Analysis Visualization, I've developed an interactive dashboard for the United States Traffic Accidents Severity Analysis, featuring:
 
@@ -243,6 +242,35 @@ In my Tableau Analysis Visualization, I've developed an interactive dashboard fo
 • Customizable filters for states, time of day, severity levels, and weather categories.
 
 • A comprehensive exploration of the interplay between these factors, providing insights into the determinants of accident severity in the United States.
+
+# Data Analysis: Insights and Recommendations
+
+# Insights:
+
+• Daytime accidents exhibited a higher severity level compared to nighttime accidents, suggesting that there might be specific factors contributing to increased severity during daylight hours.
+
+• Incidents occurring in adverse weather conditions such as rain, snow, and fog resulted in a higher severity level, particularly in the serious condition category, when contrasted with clear and cloudy weather. This indicates a correlation between challenging weather conditions and elevated accident severity.
+
+• Geographical analysis revealed that the eastern part of the United States experienced a higher volume of accidents than the western region. This observation might be attributed to the higher population density in the eastern states, potentially leading to increased traffic and a greater likelihood of accidents.
+	
+• Analysis of accidents by severity level indicated that a significant proportion of accidents fell into the "minor" category. Further investigation into the specific factors contributing to minor accidents could provide insights into preventive measures to reduce overall accident rates.
+	
+• When examining accidents by state, it became evident that certain states consistently showed higher severity levels across different weather conditions and times of the day. This suggests the presence of state-specific factors or road conditions that may contribute to the increased severity of accidents, warranting a closer look into localized safety measures.
+
+# Recommendations:
+	
+• Daytime Safety Measures: Implement targeted safety measures during daytime hours, considering the observed higher severity of accidents during this period. This could include enhanced visibility measures, increased law enforcement presence, and public awareness campaigns emphasizing safe driving practices during daylight.
+
+• Weather-Responsive Traffic Management: Develop weather-responsive traffic management strategies, especially during rain, snow, and fog. This may involve deploying weather-specific road maintenance crews, updating signage for adverse conditions, and implementing technology-driven alerts to drivers when severe weather is anticipated.
+
+• Eastern States Safety Initiatives: Given the higher accident rates in the eastern part of the United States, collaborate with states in this region to develop and implement region-specific safety initiatives. These could include targeted educational programs, improved infrastructure, and stricter law enforcement to address the unique challenges contributing to the higher accident volume.
+
+• Focus on Minor Accidents: Devote attention to understanding and preventing minor accidents, as they constitute a significant portion of incidents. Investigate the specific causes behind these minor accidents and introduce preventive measures, such as driver education campaigns or road design improvements, to reduce their occurrence.
+
+• State-Specific Safety Plans: Work with states showing consistently higher severity levels across different conditions to develop state-specific safety plans. These plans could involve a combination of targeted enforcement, infrastructure improvements, and community engagement to address the localized factors contributing to elevated accident severity.
+
+
+
 
 
 
